@@ -72,7 +72,7 @@ const Footer = () => {
             &copy; {currentYear} {settings.siteName || "Cida Bolos"}. Todos os direitos reservados.
           </p>
           <p className="text-xs text-brand-cream/60 mt-1">
-            Feito com <span role="img" aria-label="coração">💖</span> por Hostinger Horizons
+            Feito com <span role="img" aria-label="coração">💖</span> por Tech&Connect
           </p>
         </div>
       </div>
