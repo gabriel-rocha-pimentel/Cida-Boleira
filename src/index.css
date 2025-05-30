@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 96%; /* #F5EFE6 brand-cream */
+    --foreground: 20 26% 29%; /* #5D4037 brand-chocolate */
+
+    --card: 30 33% 98%; /* #FAF7F5 Slightly lighter cream for cards */
+    --card-foreground: 20 26% 29%; /* #5D4037 brand-chocolate */
+
+    --popover: 30 33% 98%; /* #FAF7F5 */
+    --popover-foreground: 20 26% 29%; /* #5D4037 */
+
+    --primary: 39 40% 52%; /* #B08D57 brand-gold */
+    --primary-foreground: 20 26% 15%; /* #3A2A25 Darker brown for contrast on gold */
+
+    --secondary: 30 33% 90%; /* #EBE6E1 Lighter cream / off-white for secondary elements */
+    --secondary-foreground: 39 40% 42%; /* #9A794E Darker gold for text on secondary */
+    
+    --accent: 27 100% 42%; /* #D87300 brand-burnt-orange */
+    --accent-foreground: 30 33% 96%; /* #F5EFE6 brand-cream for text on accent */
+
+    --muted: 30 17% 62%; /* #A1887F brand-light-brown (adjusted HSL) */
+    --muted-foreground: 20 15% 40%; /* #756B67 Darker grey-brown */
+
+    --destructive: 0 70% 50%; /* #E53E3E A deep red for errors */
+    --destructive-foreground: 0 0% 100%; /* #FFFFFF White */
+
+    --border: 30 20% 80%; /* #DCD3CC Light brownish-grey border */
+    --input: 30 20% 75%; /* #CEC3BA Slightly darker input border */
+    --ring: 39 40% 52%; /* #B08D57 brand-gold for focus rings */
+
+    --radius: 0.75rem; /* 12px */
+  }
+
+  .dark {
+    /* Example Dark Mode - can be refined further */
+    --background: 20 26% 15%; /* #3A2A25 Dark brown */
+    --foreground: 30 33% 90%; /* #EBE6E1 Light cream */
+
+    --card: 20 26% 20%; /* #473630 */
+    --card-foreground: 30 33% 90%; /* #EBE6E1 */
+
+    --popover: 20 26% 15%; /* #3A2A25 */
+    --popover-foreground: 30 33% 90%; /* #EBE6E1 */
+
+    --primary: 39 40% 62%; /* #C0A375 Lighter gold for dark mode */
+    --primary-foreground: 20 26% 10%; /* #261C18 */
+
+    --secondary: 20 26% 25%; /* #54423B */
+    --secondary-foreground: 30 33% 85%; /* #E0D9D3 */
+    
+    --accent: 27 100% 52%; /* #FF8C00 Brighter orange for dark mode */
+    --accent-foreground: 20 26% 10%; /* #261C18 */
+
+    --muted: 25 15% 30%; /* #5C534D */
+    --muted-foreground: 30 20% 70%; /* #BDB3AC */
+
+    --destructive: 0 60% 50%; /* #CC0000 */
+    --destructive-foreground: 0 0% 100%; /* #FFFFFF */
+
+    --border: 25 15% 35%; /* #6B615A */
+    --input: 25 15% 40%; /* #7A7068 */
+    --ring: 39 40% 62%; /* #C0A375 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-cursive text-brand-gold; /* Gold titles */
+  }
+  h1 { @apply text-5xl lg:text-6xl; }
+  h2 { @apply text-4xl lg:text-5xl; }
+  h3 { @apply text-3xl lg:text-4xl; }
+  h4 { @apply text-2xl lg:text-3xl; }
+  h5 { @apply text-xl lg:text-2xl; }
+  h6 { @apply text-lg lg:text-xl; }
+}
+
+@layer components {
+  .cta-button {
+    @apply bg-brand-burnt-orange text-brand-cream font-semibold py-3 px-8 rounded-2xl shadow-cta hover:bg-opacity-90 hover:scale-105 transition-all duration-300 ease-in-out focus-visible:ring-2 focus-visible:ring-brand-burnt-orange focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+  .whatsapp-button-fixed {
+    @apply fixed bottom-6 right-6 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transition-all duration-300 z-50 focus-visible:ring-2 focus-visible:ring-green-500 focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+  .glassmorphism-card {
+    @apply bg-card/70 backdrop-blur-lg border border-brand-gold/20 rounded-2xl shadow-card-elegant;
+  }
+}
+
+/* Custom scrollbar for a refined look */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background) / 0.5); /* Semi-transparent background */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.7); /* Gold, slightly transparent */
+  border-radius: 10px;
+  border: 2px solid hsl(var(--background) / 0.5); /* Track color border */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary)); /* Solid gold on hover */
+}
