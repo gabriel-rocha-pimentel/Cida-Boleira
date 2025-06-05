@@ -20,7 +20,7 @@ const ContactSection = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '(34) 99999-9999',
+      content: '(38) 99981-0506',
       description: 'WhatsApp disponível'
     }
   ];
@@ -29,14 +29,14 @@ const ContactSection = () => {
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      href: 'https://wa.me/5534999999999',
+      href: 'https://wa.me/38999810506',
       color: 'from-green-500 to-green-600',
       description: 'Faça seu pedido'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      href: 'https://instagram.com/cidaboleira',
+      href: 'https://instagram.com/cidinha_boleira',
       color: 'from-pink-500 to-purple-600',
       description: 'Siga-nos'
     }
@@ -113,7 +113,7 @@ const ContactSection = () => {
                   <Button
                     key={social.name}
                     asChild
-                    className={`bg-gradient-to-r ${social.color} hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl`}
+                    className={`bg-gradient-to-r ${social.color} p-7 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl`}
                   >
                     <a
                       href={social.href}
@@ -152,7 +152,6 @@ const ContactSection = () => {
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
-                  allowFullScreen=""
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Localização da Cida Boleira em Bonfinópolis-MG"

@@ -56,7 +56,7 @@ const Services = () => {
                       <img  
                         className="w-full h-80 object-cover rounded-2xl"
                         alt={`${service.title} - Cida Boleira`}
-                       src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
+                       src="https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/projects-image/bolos_04.jpg" />
                     </div>
                     
                     {/* Price Badge */}
@@ -120,7 +120,7 @@ const Services = () => {
                       className="bg-gradient-to-r from-rose-500 to-warm-500 hover:from-rose-600 hover:to-warm-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover-lift group"
                     >
                       <a 
-                        href={`https://wa.me/5534999999999?text=${encodeURIComponent(service.whatsappMessage)}`}
+                        href={`https://wa.me/38999810506?text=${encodeURIComponent(service.whatsappMessage)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center"
@@ -183,7 +183,7 @@ const Services = () => {
                 asChild
                 size="lg"
                 variant="outline"
-                className="border-2 border-white text-white hover:bg-white hover:text-warm-800 transition-all duration-300"
+                className="border-2 border-white text-warm-800 hover:bg-white hover:text-warm-800 transition-all duration-300"
               >
                 <a href="/contato">
                   Falar Conosco

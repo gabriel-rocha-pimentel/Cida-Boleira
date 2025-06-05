@@ -45,7 +45,7 @@ const OrderFormSection = ({ formData, handleInputChange, handleSubmit, eventType
                 value={formData.phone}
                 onChange={handleInputChange}
                 className="w-full px-4 py-3 rounded-xl border border-warm-200 focus:ring-2 focus:ring-rose-500 focus:border-transparent transition-all duration-200"
-                placeholder="(34) 99999-9999"
+                placeholder="(38) 99981-0506"
                 required
               />
             </div>
@@ -60,7 +60,7 @@ const OrderFormSection = ({ formData, handleInputChange, handleSubmit, eventType
                 value={formData.email}
                 onChange={handleInputChange}
                 className="w-full px-4 py-3 rounded-xl border border-warm-200 focus:ring-2 focus:ring-rose-500 focus:border-transparent transition-all duration-200"
-                placeholder="seu@email.com"
+                placeholder="Cidinharochakwn@hotmail.com"
               />
             </div>
           </div>

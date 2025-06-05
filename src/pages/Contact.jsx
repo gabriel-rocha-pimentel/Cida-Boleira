@@ -25,21 +25,21 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telefone',
-      content: '(34) 99999-9999',
+      content: '(38) 99981-0506',
       description: 'WhatsApp disponível',
       action: {
         text: 'Chamar no WhatsApp',
-        href: 'https://wa.me/5534999999999'
+        href: 'https://wa.me/(38) 99981-0506'
       }
     },
     {
       icon: Mail,
       title: 'Email',
-      content: 'contato@cidaboleira.com.br',
+      content: 'Cidinharochakwn@',
       description: 'Resposta em até 24h',
       action: {
         text: 'Enviar Email',
-        href: 'mailto:contato@cidaboleira.com.br'
+        href: 'mailto:Cidinharochakwn@hotmail.com'
       }
     }
   ];
@@ -48,14 +48,14 @@ const Contact = () => {
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      href: 'https://wa.me/5534999999999',
+      href: 'https://wa.me/(38) 99981-0506',
       color: 'from-green-500 to-green-600',
       description: 'Faça seu pedido agora'
     },
     {
       name: 'Instagram',
       icon: Instagram,
-      href: 'https://instagram.com/cidaboleira',
+      href: 'https://instagram.com/cidinha_boleira',
       color: 'from-pink-500 to-purple-600',
       description: 'Siga nossas novidades'
     }
@@ -102,8 +102,8 @@ const Contact = () => {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="text-center group"
               >
-                <div className="bg-gradient-to-br from-rose-50 to-warm-50 rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover-lift">
-                  <div className="bg-gradient-to-br from-rose-100 to-warm-100 p-4 rounded-2xl w-fit mx-auto mb-6 group-hover:from-rose-200 group-hover:to-warm-200 transition-all duration-300">
+                <div className="bg-gradient-to-br from-rose-50 to-warm-50 rounded-3xl p-12 shadow-lg hover:shadow-2xl transition-all duration-300 hover-lift">
+                  <div className="bg-gradient-to-br from-rose-100 to-warm-100 p-4 rounded-2xl w-max mx-auto mb-6 group-hover:from-rose-200 group-hover:to-warm-200 transition-all duration-300">
                     <info.icon className="h-8 w-8 text-warm-600" />
                   </div>
                   
@@ -123,7 +123,7 @@ const Contact = () => {
                     <Button
                       asChild
                       size="sm"
-                      className="bg-gradient-to-r from-rose-500 to-warm-500 hover:from-rose-600 hover:to-warm-600 text-white"
+                      className="bg-gradient-to-r from-rose-500 to-warm-500 hover:from-rose-600 hover:to-warm-600 text-white p-5"
                     >
                       <a
                         href={info.action.href}
@@ -162,7 +162,7 @@ const Contact = () => {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center space-x-3 py-6"
+                    className="flex items-center justify-center space-x-3 py-9"
                   >
                     <social.icon className="h-6 w-6" />
                     <div className="text-left">

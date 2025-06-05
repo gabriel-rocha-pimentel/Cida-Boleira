@@ -87,7 +87,7 @@ Enviado através do site da Cida Boleira
     }
 
     const whatsappMessage = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/5534999999999?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/38999810506?text=${whatsappMessage}`;
     
     window.open(whatsappUrl, '_blank');
     

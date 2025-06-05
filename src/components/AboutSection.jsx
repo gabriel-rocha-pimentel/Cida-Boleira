@@ -63,7 +63,7 @@ const AboutSection = () => {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-4 -left-4 bg-white text-warm-800 px-6 py-3 rounded-xl shadow-lg border-2 border-warm-200"
               >
-                <span className="font-script text-lg font-semibold">10+ Anos</span>
+                <span className="font-script text-lg font-semibold">+3 Anos</span>
               </motion.div>
             </div>
           </motion.div>
@@ -144,7 +144,7 @@ const AboutSection = () => {
               className="bg-gradient-to-r from-rose-50 to-warm-50 rounded-2xl p-6 border-l-4 border-rose-400"
             >
               <p className="text-warm-700 italic text-lg mb-4">
-                "Cada doce que faço carrega um pedacinho do meu coração. 
+                "Cada doce que faço carrega um pedacinho do meu coração.
                 Ver o sorriso dos meus clientes é a minha maior recompensa."
               </p>
               <div className="flex items-center space-x-3">

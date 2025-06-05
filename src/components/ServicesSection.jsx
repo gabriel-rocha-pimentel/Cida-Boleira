@@ -85,7 +85,7 @@ const ServicesSection = () => {
                     className="w-full bg-gradient-to-r from-rose-500 to-warm-500 hover:from-rose-600 hover:to-warm-600 text-white group/btn"
                   >
                     <a 
-                      href={`https://wa.me/5534999999999?text=${encodeURIComponent(service.whatsappMessage)}`}
+                      href={`https://wa.me/38999810506?text=${encodeURIComponent(service.whatsappMessage)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center"
