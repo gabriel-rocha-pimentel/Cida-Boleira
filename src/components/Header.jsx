@@ -40,9 +40,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="relative">
-              <Heart className="h-8 w-8 text-rose-500 group-hover:text-rose-600 transition-colors" />
-              <div className="absolute inset-0 bg-rose-500 rounded-full opacity-20 group-hover:opacity-30 transition-opacity animate-pulse" />
+            <div className="relative flex items-center justify-center">
+              {/* Coração de fundo: maior e transparente */}
+              <Heart fill='currentColor' stroke='none' className="absolute h-10 w-10 text-rose-500 opacity-20 group-hover:opacity-30 transition-opacity animate-pulse" />
+              {/* Ícone principal: menor, em primeiro plano */}
+              <Heart className="relative h-10 w-10 text-rose-500 group-hover:text-rose-600 transition-colors duration-200" />
             </div>
             <div>
               <span className="text-2xl font-script font-bold text-warm-800 group-hover:text-warm-900 transition-colors">
@@ -133,10 +135,9 @@ const Header = () => {
                       className={`
                         block w-full text-center px-6 py-3 rounded-xl
                         text-lg font-medium transition-all duration-200
-                        ${
-                          isActive(item.href)
-                            ? 'bg-rose-100 text-rose-800'
-                            : 'text-warm-700 hover:bg-warm-100 hover:text-warm-900'
+                        ${isActive(item.href)
+                          ? 'bg-rose-100 text-rose-800'
+                          : 'text-warm-700 hover:bg-warm-100 hover:text-warm-900'
                         }
                       `}
                     >
