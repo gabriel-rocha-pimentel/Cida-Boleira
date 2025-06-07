@@ -29,7 +29,7 @@ const Contact = () => {
       description: 'WhatsApp disponível',
       action: {
         text: 'Chamar no WhatsApp',
-        href: 'https://wa.me/(38) 99981-0506'
+        href: 'https://wa.me/5538999810506'
       }
     },
     {
@@ -39,7 +39,7 @@ const Contact = () => {
       description: 'Resposta em até 24h',
       action: {
         text: 'Enviar Email',
-        href: 'mailto:Cidinharochakwn@hotmail.com'
+        href: 'mailto:cidinharochakwn@hotmail.com'
       }
     }
   ];
@@ -48,7 +48,7 @@ const Contact = () => {
     {
       name: 'WhatsApp',
       icon: MessageCircle,
-      href: 'https://wa.me/(38) 99981-0506',
+      href: 'https://wa.me/5538999810506',
       color: 'from-green-500 to-green-600',
       description: 'Faça seu pedido agora'
     },
@@ -282,7 +282,7 @@ const Contact = () => {
                 className="bg-green-600 hover:bg-green-700 text-white shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <a 
-                  href="https://wa.me/5534999999999"
+                  href="https://wa.me/5538999810506"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center"

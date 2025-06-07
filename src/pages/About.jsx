@@ -7,7 +7,7 @@ const About = () => {
   const achievements = [
     {
       icon: Clock,
-      number: '+3',
+      number: '+6',
       label: 'Anos de Experiência'
     },
     {

@@ -63,7 +63,7 @@ const AboutSection = () => {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-4 -left-4 bg-white text-warm-800 px-6 py-3 rounded-xl shadow-lg border-2 border-warm-200"
               >
-                <span className="font-script text-lg font-semibold">+3 Anos</span>
+                <span className="font-script text-lg font-semibold">+6 Anos</span>
               </motion.div>
             </div>
           </motion.div>

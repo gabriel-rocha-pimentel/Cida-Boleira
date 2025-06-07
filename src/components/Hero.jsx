@@ -31,7 +31,7 @@ const Hero = () => {
               className="inline-flex items-center space-x-2 bg-rose-100 text-rose-800 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
               <Star className="h-4 w-4 fill-current" />
-              <span>Mais de 3 anos de tradição</span>
+              <span>Mais de 6 anos de tradição</span>
             </motion.div>
 
             {/* Main Heading */}
@@ -100,7 +100,7 @@ const Hero = () => {
                 <div className="text-sm text-warm-600">Clientes Felizes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-warm-800">+3</div>
+                <div className="text-3xl font-bold text-warm-800">+6</div>
                 <div className="text-sm text-warm-600">Anos de Experiência</div>
               </div>
               <div className="text-center">

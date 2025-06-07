@@ -152,7 +152,7 @@ const Footer = () => {
           <p className="text-cream-300 text-sm">
             © {currentYear} Cida Boleira. Todos os direitos reservados. 
             <span className="mx-2">•</span>
-            Feito com <Heart className="inline h-4 w-4 text-rose-400 mx-1" /> por <a href='https://portfolio-techconnect.vercel.app' target='_blank'>Tech&Connect</a>
+            Feito com <Heart className="inline h-4 w-4 text-rose-400 mx-1" /> por <a href='https://techconnect.app.br' target='_blank'>Tech&Connect</a>
           </p>
         </motion.div>
       </div>
