@@ -47,7 +47,7 @@ const ServicesSection = () => {
                 <div className="relative overflow-hidden">
                   <img  
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                    alt={`${service.title} - Cida Boleira`}
+                    alt={`${service.title} - Cidinha Boleira`}
                    src="https://images.unsplash.com/photo-1581943870582-f37dbd95fe06" />
                   
                   {/* Overlay */}

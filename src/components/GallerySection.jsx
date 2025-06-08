@@ -171,7 +171,7 @@ const GallerySection = () => {
                     {selectedImage.caption || 'Doce Artesanal'}
                   </h3>
                   <p className="text-warm-600">
-                    Criado com amor e dedicação pela Cida Boleira
+                    Criado com amor e dedicação pela Cidinha Boleira
                   </p>
                 </div>
               </motion.div>

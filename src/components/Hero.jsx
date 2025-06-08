@@ -135,7 +135,7 @@ const Hero = () => {
               <div className="relative bg-white rounded-3xl shadow-2xl p-8 hover-lift">
                 <img  
                   className="w-full h-96 object-cover rounded-2xl"
-                  alt="Bolo artesanal decorado da Cida Boleira"
+                  alt="Bolo artesanal decorado da Cidinha Boleira"
                  src="https://images.unsplash.com/photo-1557803056-4acbacad87d2" />
                 
                 {/* Floating Badge */}

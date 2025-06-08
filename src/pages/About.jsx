@@ -45,7 +45,7 @@ const About = () => {
             
             <h1 className="text-5xl md:text-6xl font-script font-bold text-warm-900 mb-6">
               Conheça a
-              <span className="text-rose-600 block">Cida Boleira</span>
+              <span className="text-rose-600 block">Cidinha Boleira</span>
             </h1>
             
             <p className="text-xl text-warm-700 max-w-3xl mx-auto leading-relaxed">
@@ -71,7 +71,7 @@ const About = () => {
                 <div className="relative bg-white rounded-3xl shadow-2xl p-6 hover-lift">
                   <img  
                     className="w-full h-96 object-cover rounded-2xl"
-                    alt="Cida Boleira em sua confeitaria"
+                    alt="Cidinha Boleira em sua confeitaria"
                    src="https://images.unsplash.com/photo-1575831315238-dfe02ecedf26" />
                 </div>
                 
@@ -116,7 +116,7 @@ const About = () => {
                     <span className="text-white font-script text-lg font-bold">C</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-warm-800">Cida</p>
+                    <p className="font-semibold text-warm-800">Cidinha</p>
                     <p className="text-sm text-warm-600">Confeiteira & Fundadora</p>
                   </div>
                 </div>

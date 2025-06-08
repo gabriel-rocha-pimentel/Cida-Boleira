@@ -248,7 +248,7 @@ const Gallery = () => {
                   {selectedImage.caption || 'Doce Artesanal'}
                 </h3>
                 <p className="text-warm-600 mb-4">
-                  Criado com amor e dedicação pela Cida Boleira
+                  Criado com amor e dedicação pela Cidinha Boleira
                 </p>
                 
                 <div className="flex gap-4">

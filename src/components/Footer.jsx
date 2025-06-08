@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <div>
                 <span className="text-3xl font-script font-bold text-cream-50">
-                  Cida Boleira
+                  Cidinha Boleira
                 </span>
                 <p className="text-cream-200 text-sm -mt-1">Confeitaria Artesanal</p>
               </div>
@@ -150,7 +150,7 @@ const Footer = () => {
           className="border-t border-white/20 mt-12 pt-8 text-center"
         >
           <p className="text-cream-300 text-sm">
-            © {currentYear} Cida Boleira. Todos os direitos reservados. 
+            © {currentYear} Cidinha Boleira. Todos os direitos reservados. 
             <span className="mx-2">•</span>
             Feito com <Heart className="inline h-4 w-4 text-rose-400 mx-1" /> por <a href='https://techconnect.app.br' target='_blank'>Tech&Connect</a>
           </p>

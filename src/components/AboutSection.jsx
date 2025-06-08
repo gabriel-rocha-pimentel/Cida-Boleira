@@ -45,7 +45,7 @@ const AboutSection = () => {
               <div className="relative bg-white rounded-3xl shadow-2xl p-6 hover-lift">
                 <img  
                   className="w-full h-80 object-cover rounded-2xl"
-                  alt="Cida Boleira preparando doces artesanais"
+                  alt="Cidinha Boleira preparando doces artesanais"
                  src="https://images.unsplash.com/photo-1572337055597-370df25ba6a9" />
               </div>
 
@@ -84,7 +84,7 @@ const AboutSection = () => {
                 className="inline-flex items-center space-x-2 bg-rose-100 text-rose-800 px-4 py-2 rounded-full text-sm font-medium mb-4"
               >
                 <Heart className="h-4 w-4" />
-                <span>Sobre a Cida Boleira</span>
+                <span>Sobre a Cidinha Boleira</span>
               </motion.div>
 
               <motion.h2
@@ -102,7 +102,7 @@ const AboutSection = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="text-lg text-warm-700 leading-relaxed"
               >
-                Há mais de uma década, a Cida Boleira tem sido sinônimo de qualidade e 
+                Há mais de uma década, a Cidinha Boleira tem sido sinônimo de qualidade e 
                 tradição em Bonfinópolis-MG. Nossa paixão pela confeitaria artesanal 
                 começou como um sonho familiar e hoje se tornou referência na região.
               </motion.p>
@@ -152,7 +152,7 @@ const AboutSection = () => {
                   <span className="text-white font-script text-lg font-bold">C</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-warm-800">Cida</p>
+                  <p className="font-semibold text-warm-800">Cidinha</p>
                   <p className="text-sm text-warm-600">Confeiteira & Fundadora</p>
                 </div>
               </div>

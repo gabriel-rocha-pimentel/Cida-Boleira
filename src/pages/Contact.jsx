@@ -210,7 +210,7 @@ const Contact = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização da Cida Boleira em Bonfinópolis-MG"
+                title="Localização da Cidinha Boleira em Bonfinópolis-MG"
               ></iframe>
               
               {/* Overlay with location info */}

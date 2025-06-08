@@ -47,7 +47,7 @@ const Orders = () => {
 
   const generateWhatsAppMessage = () => {
     const message = `
-🍰 *NOVA ENCOMENDA - CIDA BOLEIRA* 🍰
+🍰 *NOVA ENCOMENDA - CIDINHA BOLEIRA* 🍰
 
 👤 *Cliente:* ${formData.name}
 📱 *Telefone:* ${formData.phone}
@@ -68,7 +68,7 @@ const Orders = () => {
 ${formData.additionalInfo || 'Nenhuma informação adicional'}
 
 ---
-Enviado através do site da Cida Boleira
+Enviado através do site da Cidinha Boleira
     `.trim();
 
     return encodeURIComponent(message);
@@ -96,14 +96,14 @@ Enviado através do site da Cida Boleira
       description: "Sua encomenda foi preparada! Complete o pedido no WhatsApp.",
     });
 
-    const orders = JSON.parse(localStorage.getItem('cidaBoleiraOrders') || '[]');
+    const orders = JSON.parse(localStorage.getItem('cidinhaBoleiraOrders') || '[]');
     orders.push({
       ...formData,
       id: Date.now(),
       date: new Date().toISOString(),
       status: 'enviado'
     });
-    localStorage.setItem('cidaBoleiraOrders', JSON.stringify(orders));
+    localStorage.setItem('cidinhaBoleiraOrders', JSON.stringify(orders));
   };
 
   return (

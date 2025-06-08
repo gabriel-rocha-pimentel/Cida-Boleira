@@ -48,7 +48,7 @@ const Header = () => {
             </div>
             <div>
               <span className="text-2xl font-script font-bold text-warm-800 group-hover:text-warm-900 transition-colors">
-                Cida Boleira
+                Cidinha Boleira
               </span>
               <p className="text-xs text-warm-600 -mt-1">Confeitaria Artesanal</p>
             </div>

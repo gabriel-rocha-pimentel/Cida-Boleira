@@ -55,7 +55,7 @@ const Services = () => {
                     <div className="relative bg-white rounded-3xl shadow-2xl p-6 hover-lift">
                       <img  
                         className="w-full h-80 object-cover rounded-2xl"
-                        alt={`${service.title} - Cida Boleira`}
+                        alt={`${service.title} - Cidinha Boleira`}
                        src="https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/projects-image/bolos_04.jpg" />
                     </div>
                     
