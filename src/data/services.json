@@ -19,7 +19,7 @@
     "title": "Ovos de Páscoa Artesanais",
     "description": "Ovos de Páscoa artesanais com chocolate belga premium e recheios exclusivos. Criamos desde ovos tradicionais até versões temáticas e personalizadas que encantam crianças e adultos.",
     "imageKey": "https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/banners//ovos_de_pascoa.png",
-    "priceRange": "A partir de R$ 25",
+    "priceRange": "A partir de R$ 40",
     "features": [
       "Chocolate belga premium",
       "Recheios exclusivos",
@@ -34,7 +34,7 @@
     "title": "Doces Especiais",
     "description": "Uma variedade de doces finos e especiais para eventos, festas e ocasiões especiais. Brigadeiros gourmet, bem-casados, cupcakes e muito mais, sempre com a qualidade artesanal que você já conhece.",
     "imageKey": "https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/banners//doces_personalizados.png",
-    "priceRange": "A partir de R$ 3",
+    "priceRange": "As 100 Unidades partir de R$ 100",
     "features": [
       "Brigadeiros gourmet",
       "Bem-casados artesanais",
