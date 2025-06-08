@@ -48,7 +48,7 @@ const ServicesSection = () => {
                   <img  
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                     alt={`${service.title} - Cidinha Boleira`}
-                   src="https://images.unsplash.com/photo-1581943870582-f37dbd95fe06" />
+                   src={service.imageKey} />
                   
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>

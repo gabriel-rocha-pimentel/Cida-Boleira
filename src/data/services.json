@@ -3,7 +3,7 @@
     "id": "bolos",
     "title": "Bolos Personalizados",
     "description": "Criamos bolos únicos e personalizados para todas as ocasiões especiais. Desde aniversários infantis até casamentos elegantes, cada bolo é uma obra de arte comestível feita especialmente para você.",
-    "imageKey": "bolo-personalizado.jpg",
+    "imageKey": "https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/banners//bolos_personalizados.png",
     "priceRange": "A partir de R$ 80",
     "features": [
       "Design 100% personalizado",
@@ -18,7 +18,7 @@
     "id": "ovos-pascoa",
     "title": "Ovos de Páscoa Artesanais",
     "description": "Ovos de Páscoa artesanais com chocolate belga premium e recheios exclusivos. Criamos desde ovos tradicionais até versões temáticas e personalizadas que encantam crianças e adultos.",
-    "imageKey": "ovos-pascoa.jpg",
+    "imageKey": "https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/banners//ovos_de_pascoa.png",
     "priceRange": "A partir de R$ 25",
     "features": [
       "Chocolate belga premium",
@@ -33,7 +33,7 @@
     "id": "doces-especiais",
     "title": "Doces Especiais",
     "description": "Uma variedade de doces finos e especiais para eventos, festas e ocasiões especiais. Brigadeiros gourmet, bem-casados, cupcakes e muito mais, sempre com a qualidade artesanal que você já conhece.",
-    "imageKey": "doces-especiais.jpg",
+    "imageKey": "https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/banners//doces_personalizados.png",
     "priceRange": "A partir de R$ 3",
     "features": [
       "Brigadeiros gourmet",
