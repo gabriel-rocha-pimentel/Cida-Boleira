@@ -56,7 +56,7 @@ const Services = () => {
                       <img  
                         className="w-full h-80 object-cover rounded-2xl"
                         alt={`${service.title} - Cidinha Boleira`}
-                       src="https://mdbszxytezrlgngqigll.supabase.co/storage/v1/object/public/projects-image/bolos_04.jpg" />
+                       src={service.imageKey} />
                     </div>
                     
                     {/* Price Badge */}
