@@ -166,7 +166,7 @@ const GallerySection = () => {
                   alt={selectedImage.caption || 'Doce artesanal'}
                   className="w-full h-auto max-h-[70vh] object-contain"
                 />
-                <div className="p-6">
+                <div className="p-4">
                   <h3 className="text-xl font-semibold text-warm-900 mb-2">
                     {selectedImage.caption || 'Doce Artesanal'}
                   </h3>
